@@ -38,14 +38,14 @@
 						<label for="contra">Contrase&ntilde;a: <input type="password" name="contra" autocomplete="off">
 						<br />
 						<br />
-						<input type="submit" value="Ingresar">
+						<input class="boton" type="submit" value="Ingresar">
 					</fieldset>
 				</form>
 			</div>
 		</div>
 
 		<div class="footer">
-			<a href="creditos.php">Creditos</a>
+			<a href="creditos.php" aria-label="ir a la pagina de creditos, se cerrará la sesion al redirigirse a la pagina">Creditos</a>
 		</div>
 	</body>
 </html>

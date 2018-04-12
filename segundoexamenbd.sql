@@ -65,8 +65,8 @@ CREATE TABLE usuarios (
     nombre character varying(40) NOT NULL,
     apaterno character varying(20) NOT NULL,
     amaterno character varying(20),
-    usuario character (4) NOT NULL,
-    "contraseña" character varying(16) NOT NULL
+    usuario character varying(7) NOT NULL,
+    passwd character varying(16) NOT NULL
 );
 
 
@@ -137,7 +137,7 @@ CREATE TABLE libros (
     id_libro integer NOT NULL,
     titulo character varying(50) NOT NULL,
     id_autor integer,
-    "año" integer NOT NULL
+    anio integer NOT NULL
 );
 
 
